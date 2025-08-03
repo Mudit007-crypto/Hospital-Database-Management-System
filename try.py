@@ -1,0 +1,10 @@
+L=[]
+myfile=open("Databases.txt","a+")
+datahoohoo=myfile.readlines()
+print(datahoohoo)
+myfile.seek(0)
+a=myfile.read()
+print(a)
+L=a.split()
+print(L)
+myfile.close()
